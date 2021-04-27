@@ -11,8 +11,12 @@ def portfolio():
     return "Portfolio!!!"
 
 @app.route("/contact")
-def portfolio():
+def contact():
     return "Send e-mail to me"
+
+@app.route("/blog")
+def contact():
+    return "blog"
 
 if __name__ == "__main__":
     app.run(debug=True)
