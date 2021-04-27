@@ -15,7 +15,7 @@ def contact():
     return "Send e-mail to me"
 
 @app.route("/blog")
-def contact():
+def blog():
     return "blog"
 
 if __name__ == "__main__":
